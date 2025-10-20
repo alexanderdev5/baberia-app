@@ -1,0 +1,14 @@
+name = "barber-app"
+compatibility_date = "2025-10-21"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+NODE_VERSION = "20"
+
+[[migrations]]
+tag = "nodejs-compat-required"
+new_classes = ["nodejs_compat"]
+
+[[r2_buckets]]
+binding = "NEXT_INC_CACHE_R2_BUCKET"
+bucket_name = "cache"  # Este bucket debe existir
