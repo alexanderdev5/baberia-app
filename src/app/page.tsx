@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
        <HeroSection
-        title="Urban Style Barbería"
+        title="Urban Style"
         subtitle="Donde el estilo se encuentra con la tradición. Cortes precisos, barbas perfectas y una experiencia única que define tu personalidad."
         primaryButtonText="Agendar Cita"
         secondaryButtonText="Ver Servicios"

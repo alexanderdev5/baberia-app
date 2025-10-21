@@ -1,4 +1,5 @@
 name = "barber-app"
+main = ".open-next/worker.js"  # ← ESTA LÍNEA FALTA
 compatibility_date = "2025-10-21"
 compatibility_flags = ["nodejs_compat"]
 
